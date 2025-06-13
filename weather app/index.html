@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Beautiful Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-container">
+    <h1>🌦️ Weather Forecast</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button onclick="getWeather()">Check Weather</button>
+
+    <div id="weatherInfo" class="weather-info">
+      <h2 id="cityName"></h2>
+      <img id="iconContainer" src="" alt="Weather Icon">
+      <p id="temp"></p>
+      <p id="desc"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
